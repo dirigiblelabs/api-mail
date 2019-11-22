@@ -1,7 +1,7 @@
-exports.getClient = function(properties) {
+exports.getClient = function(options) {
 	var native = null;
-	if (properties) {
-		native = new org.eclipse.dirigible.api.v3.mail.MailFacade.getInstance(toJavaProperties(properties));
+	if (options) {
+		native = new org.eclipse.dirigible.api.v3.mail.MailFacade.getInstance(toJavaProperties(options));
 	} else {
 		native = new org.eclipse.dirigible.api.v3.mail.MailFacade.getInstance();
 	}
