@@ -20,7 +20,7 @@ function MailClient(native) {
 		var to = [];
 		var cc = [];
 		var bcc = [];
-		if(typeof recipients === "string") {
+		if (typeof recipients === "string") {
 			to.push(recipients);
 		} else if (typeof recipients === "object") {
 			to = parseRecipients(recipients, "to");
