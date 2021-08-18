@@ -1,4 +1,4 @@
-# API V3 - Mail
+# API V4 - Mail
 
 [![Eclipse License](http://img.shields.io/badge/license-Eclipse-brightgreen.svg)](LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/dirigiblelabs/api-mail.svg)](https://github.com/dirigiblelabs/api-mail/graphs/contributors)
