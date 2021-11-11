@@ -8,9 +8,7 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-
 var mail = require("mail/v4/client");
-
 for(var propertyName in mail) {
 	exports[propertyName] = mail[propertyName];
 }
